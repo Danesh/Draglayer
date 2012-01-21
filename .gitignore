@@ -1,0 +1,5 @@
+assets
+bin
+gen
+proguard.cfg
+project.properties

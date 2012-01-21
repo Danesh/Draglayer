@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dragdrop.Draglayer
+        android:id="@+id/nav_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+</com.dragdrop.Draglayer>
